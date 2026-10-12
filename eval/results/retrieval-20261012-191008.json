@@ -1,0 +1,4863 @@
+{
+ "time": "2026-10-12T19:10:04",
+ "k": 6,
+ "configs": {
+  "default": {
+   "overall": {
+    "n": 45,
+    "hit@1": 0.6222222222222222,
+    "hit@3": 0.7777777777777778,
+    "hit@6": 0.9111111111111111,
+    "mrr": 0.7174074074074074
+   },
+   "by_category": {
+    "fastapi": {
+     "n": 19,
+     "hit@1": 0.5789473684210527,
+     "hit@3": 0.7894736842105263,
+     "hit@6": 0.8947368421052632,
+     "mrr": 0.6798245614035088
+    },
+    "supabase": {
+     "n": 22,
+     "hit@1": 0.6818181818181818,
+     "hit@3": 0.7727272727272727,
+     "hit@6": 0.9545454545454546,
+     "mrr": 0.7666666666666667
+    },
+    "cross": {
+     "n": 4,
+     "hit@1": 0.5,
+     "hit@3": 0.75,
+     "hit@6": 0.75,
+     "mrr": 0.625
+    }
+   },
+   "cross_both_sources": 0.0,
+   "questions": [
+    {
+     "id": "fa-01",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8275241851806641,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params",
+       0.828
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.82
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.812
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.808
+      ],
+      [
+       "fastapi:tutorial/body",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/path-params-numeric-validations",
+       0.735
+      ]
+     ]
+    },
+    {
+     "id": "fa-02",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8092867136001587,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.809
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.77
+      ],
+      [
+       "fastapi:tutorial/query-param-models",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.714
+      ],
+      [
+       "supabase:troubleshooting/edge-function-504-error-response",
+       0.707
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.705
+      ]
+     ]
+    },
+    {
+     "id": "fa-03",
+     "category": "fastapi",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.7580080628395081,
+     "returned": [
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.758
+      ],
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.733
+      ],
+      [
+       "supabase:guides/functions/status-codes",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/redirect-urls",
+       0.697
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-functions",
+       0.697
+      ]
+     ]
+    },
+    {
+     "id": "fa-04",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7584110498428345,
+     "returned": [
+      [
+       "fastapi:advanced/events",
+       0.758
+      ],
+      [
+       "supabase:guides/functions/ai-models",
+       0.717
+      ],
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.699
+      ],
+      [
+       "fastapi:tutorial/index",
+       0.699
+      ],
+      [
+       "fastapi:advanced/events",
+       0.697
+      ],
+      [
+       "fastapi:advanced/testing-events",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "fa-05",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7548739910125732,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.755
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.751
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.743
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.738
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.734
+      ]
+     ]
+    },
+    {
+     "id": "fa-06",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.724766194820404,
+     "returned": [
+      [
+       "fastapi:tutorial/cors",
+       0.725
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.715
+      ],
+      [
+       "supabase:troubleshooting/failed-to-fetch-in-dashboard-and-other-areas----browser-extension-dyDTRU",
+       0.713
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.703
+      ],
+      [
+       "fastapi:advanced/behind-a-proxy",
+       0.691
+      ],
+      [
+       "fastapi:advanced/behind-a-proxy",
+       0.69
+      ]
+     ]
+    },
+    {
+     "id": "fa-07",
+     "category": "fastapi",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.7083430290222168,
+     "returned": [
+      [
+       "fastapi:tutorial/request-form-models",
+       0.708
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/before-user-created-hook",
+       0.7
+      ],
+      [
+       "fastapi:advanced/security/http-basic-auth",
+       0.696
+      ],
+      [
+       "fastapi:tutorial/response-model",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ]
+     ]
+    },
+    {
+     "id": "fa-08",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7846903800964355,
+     "returned": [
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.785
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.761
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.697
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.694
+      ],
+      [
+       "supabase:guides/local-development/seeding-your-database",
+       0.689
+      ],
+      [
+       "supabase:guides/platform/migrating-to-supabase/firestore-data",
+       0.687
+      ]
+     ]
+    },
+    {
+     "id": "fa-09",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7327679395675659,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.733
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.726
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.724
+      ],
+      [
+       "supabase:guides/functions/examples/send-emails",
+       0.722
+      ],
+      [
+       "supabase:guides/auth/auth-smtp",
+       0.706
+      ],
+      [
+       "supabase:guides/auth/auth-smtp",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "fa-10",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.81334388256073,
+     "returned": [
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.813
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.791
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.74
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.735
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/signing-keys",
+       0.723
+      ]
+     ]
+    },
+    {
+     "id": "fa-11",
+     "category": "fastapi",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7136846780776978,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.714
+      ],
+      [
+       "fastapi:advanced/testing-dependencies",
+       0.713
+      ],
+      [
+       "supabase:guides/deployment/database-migrations",
+       0.708
+      ],
+      [
+       "supabase:guides/local-development/diff-engines",
+       0.706
+      ],
+      [
+       "fastapi:tutorial/dependencies/classes-as-dependencies",
+       0.705
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "fa-12",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8143942356109619,
+     "returned": [
+      [
+       "fastapi:advanced/settings",
+       0.814
+      ],
+      [
+       "fastapi:advanced/settings",
+       0.791
+      ],
+      [
+       "fastapi:how-to/migrate-from-pydantic-v1-to-pydantic-v2",
+       0.748
+      ],
+      [
+       "fastapi:how-to/migrate-from-pydantic-v1-to-pydantic-v2",
+       0.725
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.709
+      ],
+      [
+       "fastapi:environment-variables",
+       0.707
+      ]
+     ]
+    },
+    {
+     "id": "fa-13",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7869324088096619,
+     "returned": [
+      [
+       "fastapi:async",
+       0.787
+      ],
+      [
+       "fastapi:async",
+       0.778
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.747
+      ],
+      [
+       "fastapi:tutorial/dependencies/index",
+       0.744
+      ],
+      [
+       "fastapi:advanced/async-tests",
+       0.739
+      ],
+      [
+       "fastapi:tutorial/stream-json-lines",
+       0.738
+      ]
+     ]
+    },
+    {
+     "id": "fa-14",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8368586897850037,
+     "returned": [
+      [
+       "fastapi:deployment/docker",
+       0.837
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.825
+      ],
+      [
+       "fastapi:fastapi-cli",
+       0.763
+      ],
+      [
+       "fastapi:tutorial/first-steps",
+       0.752
+      ],
+      [
+       "fastapi:fastapi-cli",
+       0.741
+      ],
+      [
+       "fastapi:deployment/fastapicloud",
+       0.74
+      ]
+     ]
+    },
+    {
+     "id": "fa-15",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7544465065002441,
+     "returned": [
+      [
+       "fastapi:deployment/server-workers",
+       0.754
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.748
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.743
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.736
+      ],
+      [
+       "fastapi:deployment/server-workers",
+       0.725
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.72
+      ]
+     ]
+    },
+    {
+     "id": "fa-16",
+     "category": "fastapi",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.7248133420944214,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.725
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.7
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.696
+      ],
+      [
+       "supabase:guides/auth/sessions",
+       0.683
+      ],
+      [
+       "supabase:guides/auth/sessions",
+       0.682
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.68
+      ]
+     ]
+    },
+    {
+     "id": "fa-17",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7361918687820435,
+     "returned": [
+      [
+       "fastapi:tutorial/middleware",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "fastapi:how-to/custom-request-and-route",
+       0.718
+      ],
+      [
+       "fastapi:advanced/custom-response",
+       0.716
+      ],
+      [
+       "fastapi:advanced/custom-response",
+       0.709
+      ]
+     ]
+    },
+    {
+     "id": "fa-18",
+     "category": "fastapi",
+     "rank": 6,
+     "both_sources": false,
+     "top_score": 0.7191015481948853,
+     "returned": [
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.719
+      ],
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.718
+      ],
+      [
+       "supabase:troubleshooting/realtime-isolating-server-side-vs-client-side-issues-with-inspector-and-devtools",
+       0.715
+      ],
+      [
+       "fastapi:tutorial/body-updates",
+       0.7
+      ],
+      [
+       "supabase:guides/self-hosting/updating",
+       0.688
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "fa-19",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7221124172210693,
+     "returned": [
+      [
+       "supabase:guides/database/testing",
+       0.722
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.708
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.706
+      ],
+      [
+       "supabase:guides/local-development/testing/overview",
+       0.704
+      ],
+      [
+       "supabase:guides/platform/webhooks",
+       0.703
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.703
+      ]
+     ]
+    },
+    {
+     "id": "sb-01",
+     "category": "supabase",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.7336888909339905,
+     "returned": [
+      [
+       "supabase:guides/database/postgres/column-level-security",
+       0.734
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.723
+      ],
+      [
+       "supabase:guides/auth/oauth-server/token-security",
+       0.723
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.721
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.719
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.711
+      ]
+     ]
+    },
+    {
+     "id": "sb-02",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7482744455337524,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-email-passwordless",
+       0.748
+      ],
+      [
+       "supabase:guides/auth/auth-identity-linking",
+       0.739
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-react",
+       0.732
+      ],
+      [
+       "supabase:guides/auth/auth-email-passwordless",
+       0.722
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-nuxt-3",
+       0.721
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-angular",
+       0.721
+      ]
+     ]
+    },
+    {
+     "id": "sb-03",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8039178848266602,
+     "returned": [
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.804
+      ],
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.784
+      ],
+      [
+       "supabase:guides/auth/quickstarts/with-expo-react-native-social-auth",
+       0.733
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-kotlin",
+       0.73
+      ],
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.727
+      ],
+      [
+       "supabase:guides/auth/social-login/auth-github",
+       0.725
+      ]
+     ]
+    },
+    {
+     "id": "sb-04",
+     "category": "supabase",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.72425776720047,
+     "returned": [
+      [
+       "supabase:guides/realtime/getting_started",
+       0.724
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.709
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.698
+      ],
+      [
+       "supabase:guides/realtime/subscribing-to-database-changes",
+       0.698
+      ],
+      [
+       "supabase:guides/database/postgres/event-triggers",
+       0.686
+      ],
+      [
+       "supabase:guides/realtime/getting_started",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "sb-05",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7312467098236084,
+     "returned": [
+      [
+       "supabase:guides/cron/quickstart",
+       0.731
+      ],
+      [
+       "supabase:guides/cron/quickstart",
+       0.697
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.684
+      ],
+      [
+       "supabase:guides/database/postgres/timeouts",
+       0.677
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.676
+      ],
+      [
+       "supabase:guides/database/postgres/configuration",
+       0.675
+      ]
+     ]
+    },
+    {
+     "id": "sb-06",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7214122414588928,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.721
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.713
+      ],
+      [
+       "supabase:guides/storage/uploads/s3-uploads",
+       0.711
+      ],
+      [
+       "supabase:guides/storage/production/scaling",
+       0.7
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.695
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.689
+      ]
+     ]
+    },
+    {
+     "id": "sb-07",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7867271900177002,
+     "returned": [
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.787
+      ],
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.77
+      ],
+      [
+       "supabase:guides/storage/production/scaling",
+       0.762
+      ],
+      [
+       "supabase:guides/getting-started/features",
+       0.74
+      ],
+      [
+       "supabase:guides/platform/manage-your-usage/storage-image-transformations",
+       0.709
+      ],
+      [
+       "supabase:guides/platform/manage-your-usage",
+       0.704
+      ]
+     ]
+    },
+    {
+     "id": "sb-08",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.842958927154541,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.843
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.792
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.79
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.788
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-envoy",
+       0.78
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.777
+      ]
+     ]
+    },
+    {
+     "id": "sb-09",
+     "category": "supabase",
+     "rank": 5,
+     "both_sources": false,
+     "top_score": 0.8490046262741089,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.849
+      ],
+      [
+       "supabase:guides/functions/quickstart",
+       0.843
+      ],
+      [
+       "supabase:guides/integrations/supabase-for-platforms",
+       0.839
+      ],
+      [
+       "supabase:guides/functions/architecture",
+       0.839
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.837
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.835
+      ]
+     ]
+    },
+    {
+     "id": "sb-10",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8394376039505005,
+     "returned": [
+      [
+       "supabase:troubleshooting/too-many-connections-for-database-postgres",
+       0.839
+      ],
+      [
+       "supabase:guides/realtime/limits",
+       0.796
+      ],
+      [
+       "supabase:troubleshooting/http-api-issues",
+       0.796
+      ],
+      [
+       "supabase:troubleshooting/database-error-remaining-connection-slots-are-reserved-for-non-replication-superuser-connections-3V3nIb",
+       0.78
+      ],
+      [
+       "supabase:guides/storage/debugging/error-codes",
+       0.772
+      ],
+      [
+       "supabase:troubleshooting/seeing-no-pghbaconf-entry-for-host-errors-in-postgres-and-they-come-from-an-ip-address-that-i-dont-recognize-4gds9f",
+       0.769
+      ]
+     ]
+    },
+    {
+     "id": "sb-11",
+     "category": "supabase",
+     "rank": 6,
+     "both_sources": false,
+     "top_score": 0.8137602806091309,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/amazon-bedrock",
+       0.814
+      ],
+      [
+       "supabase:guides/ai/concepts",
+       0.797
+      ],
+      [
+       "supabase:guides/ai/automatic-embeddings",
+       0.797
+      ],
+      [
+       "supabase:guides/ai/concepts",
+       0.794
+      ],
+      [
+       "supabase:guides/database/extensions/pgvector",
+       0.775
+      ],
+      [
+       "supabase:guides/ai/semantic-search",
+       0.774
+      ]
+     ]
+    },
+    {
+     "id": "sb-12",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7761876583099365,
+     "returned": [
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.776
+      ],
+      [
+       "supabase:guides/ai",
+       0.769
+      ],
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.767
+      ],
+      [
+       "supabase:guides/storage/vector/querying-vectors",
+       0.766
+      ],
+      [
+       "supabase:guides/storage/vector/querying-vectors",
+       0.763
+      ],
+      [
+       "supabase:guides/ai/semantic-search",
+       0.761
+      ]
+     ]
+    },
+    {
+     "id": "sb-13",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7448467016220093,
+     "returned": [
+      [
+       "supabase:guides/api/custom-claims-and-role-based-access-control-rbac",
+       0.745
+      ],
+      [
+       "supabase:guides/storage/schema/custom-roles",
+       0.744
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.732
+      ],
+      [
+       "supabase:guides/api/custom-claims-and-role-based-access-control-rbac",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/third-party/clerk",
+       0.725
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-auth-hooks",
+       0.725
+      ]
+     ]
+    },
+    {
+     "id": "sb-14",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8568664789199829,
+     "returned": [
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.857
+      ],
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.853
+      ],
+      [
+       "supabase:guides/local-development/cli-workflows",
+       0.821
+      ],
+      [
+       "supabase:guides/api/rest/generating-python-types",
+       0.793
+      ],
+      [
+       "fastapi:advanced/generate-clients",
+       0.791
+      ],
+      [
+       "supabase:guides/ai/examples/huggingface-image-captioning",
+       0.79
+      ]
+     ]
+    },
+    {
+     "id": "sb-15",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7788664698600769,
+     "returned": [
+      [
+       "supabase:guides/self-hosting/docker",
+       0.779
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.776
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.774
+      ],
+      [
+       "supabase:guides/self-hosting",
+       0.772
+      ],
+      [
+       "supabase:guides/integrations/supabase-for-platforms",
+       0.769
+      ],
+      [
+       "supabase:guides/local-development/running-multiple-local-projects",
+       0.767
+      ]
+     ]
+    },
+    {
+     "id": "sb-16",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8000835180282593,
+     "returned": [
+      [
+       "supabase:guides/local-development/database-migrations",
+       0.8
+      ],
+      [
+       "supabase:guides/deployment/managing-environments",
+       0.789
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.789
+      ],
+      [
+       "supabase:guides/deployment/managing-environments",
+       0.789
+      ],
+      [
+       "supabase:guides/local-development/database-migrations",
+       0.787
+      ],
+      [
+       "supabase:guides/deployment/database-migrations",
+       0.787
+      ]
+     ]
+    },
+    {
+     "id": "sb-17",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7134137153625488,
+     "returned": [
+      [
+       "supabase:guides/platform/backups",
+       0.713
+      ],
+      [
+       "supabase:guides/platform/backups",
+       0.707
+      ],
+      [
+       "supabase:guides/platform/clone-project",
+       0.705
+      ],
+      [
+       "supabase:guides/platform/migrating-within-supabase/backup-restore",
+       0.704
+      ],
+      [
+       "supabase:troubleshooting/restore-project-after-90-days-pause",
+       0.702
+      ],
+      [
+       "supabase:guides/platform/clone-project",
+       0.701
+      ]
+     ]
+    },
+    {
+     "id": "sb-18",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8098435401916504,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.81
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.791
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.787
+      ],
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.786
+      ],
+      [
+       "supabase:guides/platform/multi-factor-authentication",
+       0.772
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/phone",
+       0.771
+      ]
+     ]
+    },
+    {
+     "id": "sb-19",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8644943237304688,
+     "returned": [
+      [
+       "supabase:troubleshooting/storage-error-403-forbidden-new-row-violates-row-level-security-policy-on-upload-a94384",
+       0.864
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.751
+      ],
+      [
+       "supabase:troubleshooting/pg_dump-fails-with-query-would-be-affected-by-row-level-security-policy-1d5783",
+       0.741
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.727
+      ],
+      [
+       "supabase:guides/local-development/testing/pgtap-extended",
+       0.722
+      ],
+      [
+       "supabase:troubleshooting/pg_dump-fails-with-query-would-be-affected-by-row-level-security-policy-1d5783",
+       0.721
+      ]
+     ]
+    },
+    {
+     "id": "sb-20",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7728999257087708,
+     "returned": [
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.773
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.76
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.749
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.749
+      ],
+      [
+       "supabase:guides/auth/signing-keys",
+       0.745
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-auth-keys",
+       0.727
+      ]
+     ]
+    },
+    {
+     "id": "sb-21",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7666825652122498,
+     "returned": [
+      [
+       "supabase:guides/database/vault",
+       0.767
+      ],
+      [
+       "supabase:guides/database/vault",
+       0.766
+      ],
+      [
+       "supabase:guides/self-hosting/docker",
+       0.75
+      ],
+      [
+       "supabase:guides/auth/password-security",
+       0.736
+      ],
+      [
+       "supabase:guides/functions/secrets",
+       0.734
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.73
+      ]
+     ]
+    },
+    {
+     "id": "sb-22",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7712879180908203,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.771
+      ],
+      [
+       "supabase:guides/queues/quickstart",
+       0.76
+      ],
+      [
+       "supabase:guides/cron/install",
+       0.756
+      ],
+      [
+       "supabase:guides/database/custom-postgres-config",
+       0.748
+      ],
+      [
+       "supabase:guides/cron/quickstart",
+       0.744
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/hono",
+       0.743
+      ]
+     ]
+    },
+    {
+     "id": "x-01",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8312081694602966,
+     "returned": [
+      [
+       "supabase:guides/auth/jwts",
+       0.831
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.827
+      ],
+      [
+       "supabase:guides/functions/auth-headers",
+       0.798
+      ],
+      [
+       "supabase:guides/auth/oauth-server/oauth-flows",
+       0.798
+      ],
+      [
+       "supabase:guides/integrations/partner-integration-guide",
+       0.794
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-functions",
+       0.788
+      ]
+     ]
+    },
+    {
+     "id": "x-02",
+     "category": "cross",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.8019634485244751,
+     "returned": [
+      [
+       "supabase:guides/ai/google-colab",
+       0.802
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/spring-boot",
+       0.801
+      ],
+      [
+       "supabase:guides/ai/examples/semantic-image-search-amazon-titan",
+       0.799
+      ],
+      [
+       "supabase:guides/platform/migrating-to-supabase/postgres",
+       0.796
+      ],
+      [
+       "supabase:guides/ai/integrations/llamaindex",
+       0.793
+      ],
+      [
+       "supabase:guides/functions/connect-to-postgres",
+       0.789
+      ]
+     ]
+    },
+    {
+     "id": "x-03",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7889546155929565,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.789
+      ],
+      [
+       "supabase:guides/storage/quickstart",
+       0.788
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.774
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.764
+      ],
+      [
+       "supabase:guides/storage/uploads/s3-uploads",
+       0.758
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.758
+      ]
+     ]
+    },
+    {
+     "id": "x-04",
+     "category": "cross",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.804100513458252,
+     "returned": [
+      [
+       "supabase:guides/api/creating-routes",
+       0.804
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.79
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ios-swiftui",
+       0.774
+      ],
+      [
+       "supabase:guides/api",
+       0.772
+      ],
+      [
+       "supabase:guides/api/securing-your-api",
+       0.77
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/kotlin",
+       0.767
+      ]
+     ]
+    },
+    {
+     "id": "na-01",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6404983997344971,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.64
+      ],
+      [
+       "supabase:guides/ai/examples/image-search-openai-clip",
+       0.62
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.619
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/sveltekit",
+       0.615
+      ],
+      [
+       "supabase:guides/ai/examples/image-search-openai-clip",
+       0.611
+      ],
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.61
+      ]
+     ]
+    },
+    {
+     "id": "na-02",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.703188419342041,
+     "returned": [
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.703
+      ],
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.683
+      ],
+      [
+       "supabase:guides/ai/examples/headless-vector-search",
+       0.681
+      ],
+      [
+       "supabase:guides/ai/examples/headless-vector-search",
+       0.659
+      ],
+      [
+       "supabase:guides/ai/quickstarts/generate-text-embeddings",
+       0.642
+      ],
+      [
+       "supabase:guides/self-hosting/custom-postgres-extensions",
+       0.639
+      ]
+     ]
+    },
+    {
+     "id": "na-03",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6739903688430786,
+     "returned": [
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.674
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.669
+      ],
+      [
+       "supabase:guides/ai/quickstarts/generate-text-embeddings",
+       0.662
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/reactjs",
+       0.655
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.646
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.643
+      ]
+     ]
+    }
+   ]
+  },
+  "balance": {
+   "overall": {
+    "n": 45,
+    "hit@1": 0.6222222222222222,
+    "hit@3": 0.7777777777777778,
+    "hit@6": 0.8888888888888888,
+    "mrr": 0.7125925925925927
+   },
+   "by_category": {
+    "fastapi": {
+     "n": 19,
+     "hit@1": 0.5789473684210527,
+     "hit@3": 0.7894736842105263,
+     "hit@6": 1.0,
+     "mrr": 0.7008771929824561
+    },
+    "supabase": {
+     "n": 22,
+     "hit@1": 0.6818181818181818,
+     "hit@3": 0.7727272727272727,
+     "hit@6": 0.7727272727272727,
+     "mrr": 0.7272727272727273
+    },
+    "cross": {
+     "n": 4,
+     "hit@1": 0.5,
+     "hit@3": 0.75,
+     "hit@6": 1.0,
+     "mrr": 0.6875
+    }
+   },
+   "cross_both_sources": 0.5,
+   "questions": [
+    {
+     "id": "fa-01",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8275241851806641,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params",
+       0.828
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.82
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.812
+      ],
+      [
+       "supabase:troubleshooting/disabling-prepared-statements-qL8lEL",
+       0.676
+      ],
+      [
+       "supabase:guides/ai/langchain",
+       0.657
+      ],
+      [
+       "supabase:guides/database/full-text-search",
+       0.656
+      ]
+     ]
+    },
+    {
+     "id": "fa-02",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8092867136001587,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.809
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.77
+      ],
+      [
+       "fastapi:tutorial/query-param-models",
+       0.738
+      ],
+      [
+       "supabase:troubleshooting/edge-function-504-error-response",
+       0.707
+      ],
+      [
+       "supabase:guides/storage/vector/limits",
+       0.696
+      ],
+      [
+       "supabase:troubleshooting/error-invalid-byte-sequence-for-encoding-utf8-0x00-when-accessing-triggers-or-webhooks-e78cf8",
+       0.695
+      ]
+     ]
+    },
+    {
+     "id": "fa-03",
+     "category": "fastapi",
+     "rank": 5,
+     "both_sources": false,
+     "top_score": 0.7580080628395081,
+     "returned": [
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.758
+      ],
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.733
+      ],
+      [
+       "supabase:guides/functions/status-codes",
+       0.728
+      ],
+      [
+       "fastapi:tutorial/handling-errors",
+       0.685
+      ],
+      [
+       "fastapi:tutorial/handling-errors",
+       0.684
+      ]
+     ]
+    },
+    {
+     "id": "fa-04",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7584110498428345,
+     "returned": [
+      [
+       "fastapi:advanced/events",
+       0.758
+      ],
+      [
+       "supabase:guides/functions/ai-models",
+       0.717
+      ],
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.699
+      ],
+      [
+       "fastapi:tutorial/index",
+       0.699
+      ],
+      [
+       "fastapi:advanced/events",
+       0.697
+      ],
+      [
+       "supabase:guides/functions/ai-models",
+       0.679
+      ]
+     ]
+    },
+    {
+     "id": "fa-05",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7548739910125732,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.755
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.751
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.743
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/request-forms-and-files",
+       0.728
+      ]
+     ]
+    },
+    {
+     "id": "fa-06",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.724766194820404,
+     "returned": [
+      [
+       "fastapi:tutorial/cors",
+       0.725
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.715
+      ],
+      [
+       "supabase:troubleshooting/failed-to-fetch-in-dashboard-and-other-areas----browser-extension-dyDTRU",
+       0.713
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.703
+      ],
+      [
+       "supabase:guides/functions/cors",
+       0.687
+      ],
+      [
+       "supabase:guides/auth/server-side/advanced-guide",
+       0.681
+      ]
+     ]
+    },
+    {
+     "id": "fa-07",
+     "category": "fastapi",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.7083430290222168,
+     "returned": [
+      [
+       "fastapi:tutorial/request-form-models",
+       0.708
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/before-user-created-hook",
+       0.7
+      ],
+      [
+       "fastapi:advanced/security/http-basic-auth",
+       0.696
+      ],
+      [
+       "fastapi:tutorial/response-model",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ]
+     ]
+    },
+    {
+     "id": "fa-08",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7846903800964355,
+     "returned": [
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.785
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.761
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.697
+      ],
+      [
+       "supabase:guides/local-development/seeding-your-database",
+       0.689
+      ],
+      [
+       "supabase:guides/platform/migrating-to-supabase/firestore-data",
+       0.687
+      ],
+      [
+       "supabase:guides/functions/routing",
+       0.671
+      ]
+     ]
+    },
+    {
+     "id": "fa-09",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7327679395675659,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.733
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.726
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.724
+      ],
+      [
+       "supabase:guides/functions/examples/send-emails",
+       0.722
+      ],
+      [
+       "fastapi:advanced/custom-response",
+       0.684
+      ],
+      [
+       "fastapi:advanced/stream-data",
+       0.667
+      ]
+     ]
+    },
+    {
+     "id": "fa-10",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.81334388256073,
+     "returned": [
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.813
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.791
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.74
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/signing-keys",
+       0.723
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.721
+      ]
+     ]
+    },
+    {
+     "id": "fa-11",
+     "category": "fastapi",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7136846780776978,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.714
+      ],
+      [
+       "fastapi:advanced/testing-dependencies",
+       0.713
+      ],
+      [
+       "supabase:guides/deployment/database-migrations",
+       0.708
+      ],
+      [
+       "supabase:guides/local-development/diff-engines",
+       0.706
+      ],
+      [
+       "fastapi:tutorial/dependencies/classes-as-dependencies",
+       0.705
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "fa-12",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8143942356109619,
+     "returned": [
+      [
+       "fastapi:advanced/settings",
+       0.814
+      ],
+      [
+       "fastapi:advanced/settings",
+       0.791
+      ],
+      [
+       "fastapi:how-to/migrate-from-pydantic-v1-to-pydantic-v2",
+       0.748
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.709
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-functions",
+       0.702
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.698
+      ]
+     ]
+    },
+    {
+     "id": "fa-13",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7869324088096619,
+     "returned": [
+      [
+       "fastapi:async",
+       0.787
+      ],
+      [
+       "fastapi:async",
+       0.778
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.747
+      ],
+      [
+       "supabase:guides/functions/routing",
+       0.71
+      ],
+      [
+       "supabase:guides/functions/recursive-functions",
+       0.695
+      ],
+      [
+       "supabase:guides/functions/routing",
+       0.694
+      ]
+     ]
+    },
+    {
+     "id": "fa-14",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8368586897850037,
+     "returned": [
+      [
+       "fastapi:deployment/docker",
+       0.837
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.825
+      ],
+      [
+       "fastapi:fastapi-cli",
+       0.763
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.692
+      ],
+      [
+       "supabase:guides/local-development",
+       0.688
+      ],
+      [
+       "supabase:guides/self-hosting/docker",
+       0.685
+      ]
+     ]
+    },
+    {
+     "id": "fa-15",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7544465065002441,
+     "returned": [
+      [
+       "fastapi:deployment/server-workers",
+       0.754
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.748
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.743
+      ],
+      [
+       "supabase:guides/local-development/running-multiple-local-projects",
+       0.709
+      ],
+      [
+       "supabase:guides/ai/going-to-prod",
+       0.706
+      ],
+      [
+       "supabase:guides/local-development/running-multiple-local-projects",
+       0.688
+      ]
+     ]
+    },
+    {
+     "id": "fa-16",
+     "category": "fastapi",
+     "rank": 6,
+     "both_sources": false,
+     "top_score": 0.7248133420944214,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.725
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.7
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.696
+      ],
+      [
+       "supabase:guides/auth/sessions",
+       0.683
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.68
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.674
+      ]
+     ]
+    },
+    {
+     "id": "fa-17",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7361918687820435,
+     "returned": [
+      [
+       "fastapi:tutorial/middleware",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "supabase:troubleshooting/database-roles-can-read-request-headers-queued-by-pg_net-ad6357",
+       0.691
+      ],
+      [
+       "supabase:troubleshooting/edge-function-504-error-response",
+       0.681
+      ],
+      [
+       "supabase:troubleshooting/edge-function-504-error-response",
+       0.674
+      ]
+     ]
+    },
+    {
+     "id": "fa-18",
+     "category": "fastapi",
+     "rank": 5,
+     "both_sources": false,
+     "top_score": 0.7191015481948853,
+     "returned": [
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.719
+      ],
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.718
+      ],
+      [
+       "supabase:troubleshooting/realtime-isolating-server-side-vs-client-side-issues-with-inspector-and-devtools",
+       0.715
+      ],
+      [
+       "fastapi:tutorial/body-updates",
+       0.7
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.683
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.676
+      ]
+     ]
+    },
+    {
+     "id": "fa-19",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7221124172210693,
+     "returned": [
+      [
+       "supabase:guides/database/testing",
+       0.722
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.708
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.706
+      ],
+      [
+       "supabase:guides/local-development/testing/overview",
+       0.704
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.703
+      ],
+      [
+       "fastapi:advanced/testing-events",
+       0.692
+      ]
+     ]
+    },
+    {
+     "id": "sb-01",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.7336888909339905,
+     "returned": [
+      [
+       "supabase:guides/database/postgres/column-level-security",
+       0.734
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.723
+      ],
+      [
+       "supabase:guides/auth/oauth-server/token-security",
+       0.723
+      ],
+      [
+       "fastapi:tutorial/query-param-models",
+       0.683
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.679
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.658
+      ]
+     ]
+    },
+    {
+     "id": "sb-02",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7482744455337524,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-email-passwordless",
+       0.748
+      ],
+      [
+       "supabase:guides/auth/auth-identity-linking",
+       0.739
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-react",
+       0.732
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.68
+      ],
+      [
+       "fastapi:tutorial/security/first-steps",
+       0.679
+      ],
+      [
+       "fastapi:advanced/security/http-basic-auth",
+       0.667
+      ]
+     ]
+    },
+    {
+     "id": "sb-03",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8039178848266602,
+     "returned": [
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.804
+      ],
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.784
+      ],
+      [
+       "supabase:guides/auth/quickstarts/with-expo-react-native-social-auth",
+       0.733
+      ],
+      [
+       "fastapi:tutorial/security/index",
+       0.611
+      ],
+      [
+       "fastapi:tutorial/security/first-steps",
+       0.609
+      ],
+      [
+       "fastapi:tutorial/security/first-steps",
+       0.593
+      ]
+     ]
+    },
+    {
+     "id": "sb-04",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.72425776720047,
+     "returned": [
+      [
+       "supabase:guides/realtime/getting_started",
+       0.724
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.709
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.698
+      ],
+      [
+       "fastapi:advanced/events",
+       0.636
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.633
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.617
+      ]
+     ]
+    },
+    {
+     "id": "sb-05",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7312467098236084,
+     "returned": [
+      [
+       "supabase:guides/cron/quickstart",
+       0.731
+      ],
+      [
+       "supabase:guides/cron/quickstart",
+       0.697
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.684
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.632
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.63
+      ],
+      [
+       "fastapi:async",
+       0.627
+      ]
+     ]
+    },
+    {
+     "id": "sb-06",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7214122414588928,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.721
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.713
+      ],
+      [
+       "supabase:guides/storage/uploads/s3-uploads",
+       0.711
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.671
+      ],
+      [
+       "fastapi:advanced/stream-data",
+       0.668
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.666
+      ]
+     ]
+    },
+    {
+     "id": "sb-07",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7867271900177002,
+     "returned": [
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.787
+      ],
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.77
+      ],
+      [
+       "supabase:guides/storage/production/scaling",
+       0.762
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.647
+      ],
+      [
+       "fastapi:advanced/stream-data",
+       0.631
+      ],
+      [
+       "fastapi:advanced/stream-data",
+       0.62
+      ]
+     ]
+    },
+    {
+     "id": "sb-08",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.842958927154541,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.843
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.792
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.79
+      ],
+      [
+       "fastapi:tutorial/security/first-steps",
+       0.696
+      ],
+      [
+       "fastapi:how-to/conditional-openapi",
+       0.676
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.674
+      ]
+     ]
+    },
+    {
+     "id": "sb-09",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.8490046262741089,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.849
+      ],
+      [
+       "supabase:guides/functions/quickstart",
+       0.843
+      ],
+      [
+       "supabase:guides/integrations/supabase-for-platforms",
+       0.839
+      ],
+      [
+       "fastapi:deployment/index",
+       0.649
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.633
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.632
+      ]
+     ]
+    },
+    {
+     "id": "sb-10",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8394376039505005,
+     "returned": [
+      [
+       "supabase:troubleshooting/too-many-connections-for-database-postgres",
+       0.839
+      ],
+      [
+       "supabase:guides/realtime/limits",
+       0.796
+      ],
+      [
+       "supabase:troubleshooting/http-api-issues",
+       0.796
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.656
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.638
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.637
+      ]
+     ]
+    },
+    {
+     "id": "sb-11",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.8137602806091309,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/amazon-bedrock",
+       0.814
+      ],
+      [
+       "supabase:guides/ai/concepts",
+       0.797
+      ],
+      [
+       "supabase:guides/ai/automatic-embeddings",
+       0.797
+      ],
+      [
+       "fastapi:tutorial/path-params-numeric-validations",
+       0.608
+      ],
+      [
+       "fastapi:index",
+       0.605
+      ],
+      [
+       "fastapi:advanced/dataclasses",
+       0.602
+      ]
+     ]
+    },
+    {
+     "id": "sb-12",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7761876583099365,
+     "returned": [
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.776
+      ],
+      [
+       "supabase:guides/ai",
+       0.769
+      ],
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.767
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.628
+      ],
+      [
+       "fastapi:advanced/additional-responses",
+       0.625
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.624
+      ]
+     ]
+    },
+    {
+     "id": "sb-13",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7448467016220093,
+     "returned": [
+      [
+       "supabase:guides/api/custom-claims-and-role-based-access-control-rbac",
+       0.745
+      ],
+      [
+       "supabase:guides/storage/schema/custom-roles",
+       0.744
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.732
+      ],
+      [
+       "fastapi:tutorial/security/first-steps",
+       0.694
+      ],
+      [
+       "fastapi:advanced/security/oauth2-scopes",
+       0.66
+      ],
+      [
+       "fastapi:tutorial/security/get-current-user",
+       0.652
+      ]
+     ]
+    },
+    {
+     "id": "sb-14",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8568664789199829,
+     "returned": [
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.857
+      ],
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.853
+      ],
+      [
+       "supabase:guides/local-development/cli-workflows",
+       0.821
+      ],
+      [
+       "fastapi:advanced/generate-clients",
+       0.791
+      ],
+      [
+       "fastapi:advanced/generate-clients",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/body",
+       0.726
+      ]
+     ]
+    },
+    {
+     "id": "sb-15",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7788664698600769,
+     "returned": [
+      [
+       "supabase:guides/self-hosting/docker",
+       0.779
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.776
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.774
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.659
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.626
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.621
+      ]
+     ]
+    },
+    {
+     "id": "sb-16",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8000835180282593,
+     "returned": [
+      [
+       "supabase:guides/local-development/database-migrations",
+       0.8
+      ],
+      [
+       "supabase:guides/deployment/managing-environments",
+       0.789
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.789
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.745
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.707
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.684
+      ]
+     ]
+    },
+    {
+     "id": "sb-17",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7134137153625488,
+     "returned": [
+      [
+       "supabase:guides/platform/backups",
+       0.713
+      ],
+      [
+       "supabase:guides/platform/backups",
+       0.707
+      ],
+      [
+       "supabase:guides/platform/clone-project",
+       0.705
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.618
+      ],
+      [
+       "fastapi:tutorial/body-updates",
+       0.603
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "sb-18",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8098435401916504,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.81
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.791
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.787
+      ],
+      [
+       "fastapi:tutorial/security/index",
+       0.664
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.659
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.657
+      ]
+     ]
+    },
+    {
+     "id": "sb-19",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8644943237304688,
+     "returned": [
+      [
+       "supabase:troubleshooting/storage-error-403-forbidden-new-row-violates-row-level-security-policy-on-upload-a94384",
+       0.864
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.751
+      ],
+      [
+       "supabase:troubleshooting/pg_dump-fails-with-query-would-be-affected-by-row-level-security-policy-1d5783",
+       0.741
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.674
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.642
+      ],
+      [
+       "fastapi:tutorial/request-forms-and-files",
+       0.632
+      ]
+     ]
+    },
+    {
+     "id": "sb-20",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7728999257087708,
+     "returned": [
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.773
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.76
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.749
+      ],
+      [
+       "fastapi:advanced/security/http-basic-auth",
+       0.631
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.622
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.618
+      ]
+     ]
+    },
+    {
+     "id": "sb-21",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7666825652122498,
+     "returned": [
+      [
+       "supabase:guides/database/vault",
+       0.767
+      ],
+      [
+       "supabase:guides/database/vault",
+       0.766
+      ],
+      [
+       "supabase:guides/self-hosting/docker",
+       0.75
+      ],
+      [
+       "fastapi:tutorial/extra-models",
+       0.692
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.691
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.682
+      ]
+     ]
+    },
+    {
+     "id": "sb-22",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7712879180908203,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.771
+      ],
+      [
+       "supabase:guides/queues/quickstart",
+       0.76
+      ],
+      [
+       "supabase:guides/cron/install",
+       0.756
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.65
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.641
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.635
+      ]
+     ]
+    },
+    {
+     "id": "x-01",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": true,
+     "top_score": 0.8312081694602966,
+     "returned": [
+      [
+       "supabase:guides/auth/jwts",
+       0.831
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.827
+      ],
+      [
+       "supabase:guides/functions/auth-headers",
+       0.798
+      ],
+      [
+       "fastapi:advanced/strict-content-type",
+       0.748
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.734
+      ],
+      [
+       "fastapi:index",
+       0.724
+      ]
+     ]
+    },
+    {
+     "id": "x-02",
+     "category": "cross",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.8019634485244751,
+     "returned": [
+      [
+       "supabase:guides/ai/google-colab",
+       0.802
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/spring-boot",
+       0.801
+      ],
+      [
+       "supabase:guides/ai/examples/semantic-image-search-amazon-titan",
+       0.799
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.725
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.706
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.696
+      ]
+     ]
+    },
+    {
+     "id": "x-03",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": true,
+     "top_score": 0.7889546155929565,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.789
+      ],
+      [
+       "supabase:guides/storage/quickstart",
+       0.788
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.774
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.739
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.712
+      ],
+      [
+       "fastapi:tutorial/request-forms-and-files",
+       0.704
+      ]
+     ]
+    },
+    {
+     "id": "x-04",
+     "category": "cross",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.804100513458252,
+     "returned": [
+      [
+       "supabase:guides/api/creating-routes",
+       0.804
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.79
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ios-swiftui",
+       0.774
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.755
+      ],
+      [
+       "fastapi:tutorial/metadata",
+       0.753
+      ],
+      [
+       "fastapi:advanced/sub-applications",
+       0.745
+      ]
+     ]
+    },
+    {
+     "id": "na-01",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6404983997344971,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.64
+      ],
+      [
+       "supabase:guides/ai/examples/image-search-openai-clip",
+       0.62
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.619
+      ],
+      [
+       "fastapi:tutorial/path-params",
+       0.596
+      ],
+      [
+       "fastapi:advanced/dataclasses",
+       0.596
+      ],
+      [
+       "fastapi:tutorial/request-form-models",
+       0.588
+      ]
+     ]
+    },
+    {
+     "id": "na-02",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.703188419342041,
+     "returned": [
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.703
+      ],
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.683
+      ],
+      [
+       "supabase:guides/ai/examples/headless-vector-search",
+       0.681
+      ],
+      [
+       "fastapi:tutorial/dependencies/index",
+       0.63
+      ],
+      [
+       "fastapi:advanced/wsgi",
+       0.616
+      ],
+      [
+       "fastapi:features",
+       0.593
+      ]
+     ]
+    },
+    {
+     "id": "na-03",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6739903688430786,
+     "returned": [
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.674
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.669
+      ],
+      [
+       "supabase:guides/ai/quickstarts/generate-text-embeddings",
+       0.662
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.603
+      ],
+      [
+       "fastapi:advanced/templates",
+       0.602
+      ],
+      [
+       "fastapi:tutorial/schema-extra-example",
+       0.599
+      ]
+     ]
+    }
+   ]
+  },
+  "auto": {
+   "overall": {
+    "n": 45,
+    "hit@1": 0.6222222222222222,
+    "hit@3": 0.7777777777777778,
+    "hit@6": 0.9333333333333333,
+    "mrr": 0.7229629629629629
+   },
+   "by_category": {
+    "fastapi": {
+     "n": 19,
+     "hit@1": 0.5789473684210527,
+     "hit@3": 0.7894736842105263,
+     "hit@6": 0.8947368421052632,
+     "mrr": 0.6798245614035088
+    },
+    "supabase": {
+     "n": 22,
+     "hit@1": 0.6818181818181818,
+     "hit@3": 0.7727272727272727,
+     "hit@6": 0.9545454545454546,
+     "mrr": 0.7666666666666667
+    },
+    "cross": {
+     "n": 4,
+     "hit@1": 0.5,
+     "hit@3": 0.75,
+     "hit@6": 1.0,
+     "mrr": 0.6875
+    }
+   },
+   "cross_both_sources": 0.5,
+   "questions": [
+    {
+     "id": "fa-01",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8275241851806641,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params",
+       0.828
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.82
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.812
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.808
+      ],
+      [
+       "fastapi:tutorial/body",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/path-params-numeric-validations",
+       0.735
+      ]
+     ]
+    },
+    {
+     "id": "fa-02",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8092867136001587,
+     "returned": [
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.809
+      ],
+      [
+       "fastapi:tutorial/query-params-str-validations",
+       0.77
+      ],
+      [
+       "fastapi:tutorial/query-param-models",
+       0.738
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.714
+      ],
+      [
+       "supabase:troubleshooting/edge-function-504-error-response",
+       0.707
+      ],
+      [
+       "fastapi:tutorial/query-params",
+       0.705
+      ]
+     ]
+    },
+    {
+     "id": "fa-03",
+     "category": "fastapi",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.7580080628395081,
+     "returned": [
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.758
+      ],
+      [
+       "supabase:troubleshooting/edge-function-404-error-response",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.733
+      ],
+      [
+       "supabase:guides/functions/status-codes",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/redirect-urls",
+       0.697
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-functions",
+       0.697
+      ]
+     ]
+    },
+    {
+     "id": "fa-04",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7584110498428345,
+     "returned": [
+      [
+       "fastapi:advanced/events",
+       0.758
+      ],
+      [
+       "supabase:guides/functions/ai-models",
+       0.717
+      ],
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.699
+      ],
+      [
+       "fastapi:tutorial/index",
+       0.699
+      ],
+      [
+       "fastapi:advanced/events",
+       0.697
+      ],
+      [
+       "fastapi:advanced/testing-events",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "fa-05",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7548739910125732,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.755
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.751
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.745
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.743
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.738
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.734
+      ]
+     ]
+    },
+    {
+     "id": "fa-06",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.724766194820404,
+     "returned": [
+      [
+       "fastapi:tutorial/cors",
+       0.725
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.715
+      ],
+      [
+       "supabase:troubleshooting/failed-to-fetch-in-dashboard-and-other-areas----browser-extension-dyDTRU",
+       0.713
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.703
+      ],
+      [
+       "fastapi:advanced/behind-a-proxy",
+       0.691
+      ],
+      [
+       "fastapi:advanced/behind-a-proxy",
+       0.69
+      ]
+     ]
+    },
+    {
+     "id": "fa-07",
+     "category": "fastapi",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.7083430290222168,
+     "returned": [
+      [
+       "fastapi:tutorial/request-form-models",
+       0.708
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/before-user-created-hook",
+       0.7
+      ],
+      [
+       "fastapi:advanced/security/http-basic-auth",
+       0.696
+      ],
+      [
+       "fastapi:tutorial/response-model",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/password-verification-hook",
+       0.694
+      ]
+     ]
+    },
+    {
+     "id": "fa-08",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7846903800964355,
+     "returned": [
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.785
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.761
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.697
+      ],
+      [
+       "fastapi:tutorial/frontend",
+       0.694
+      ],
+      [
+       "supabase:guides/local-development/seeding-your-database",
+       0.689
+      ],
+      [
+       "supabase:guides/platform/migrating-to-supabase/firestore-data",
+       0.687
+      ]
+     ]
+    },
+    {
+     "id": "fa-09",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7327679395675659,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.733
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-email-hook",
+       0.726
+      ],
+      [
+       "fastapi:tutorial/background-tasks",
+       0.724
+      ],
+      [
+       "supabase:guides/functions/examples/send-emails",
+       0.722
+      ],
+      [
+       "supabase:guides/auth/auth-smtp",
+       0.706
+      ],
+      [
+       "supabase:guides/auth/auth-smtp",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "fa-10",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.81334388256073,
+     "returned": [
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.813
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.791
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.74
+      ],
+      [
+       "fastapi:tutorial/security/simple-oauth2",
+       0.735
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/signing-keys",
+       0.723
+      ]
+     ]
+    },
+    {
+     "id": "fa-11",
+     "category": "fastapi",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7136846780776978,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.714
+      ],
+      [
+       "fastapi:advanced/testing-dependencies",
+       0.713
+      ],
+      [
+       "supabase:guides/deployment/database-migrations",
+       0.708
+      ],
+      [
+       "supabase:guides/local-development/diff-engines",
+       0.706
+      ],
+      [
+       "fastapi:tutorial/dependencies/classes-as-dependencies",
+       0.705
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "fa-12",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8143942356109619,
+     "returned": [
+      [
+       "fastapi:advanced/settings",
+       0.814
+      ],
+      [
+       "fastapi:advanced/settings",
+       0.791
+      ],
+      [
+       "fastapi:how-to/migrate-from-pydantic-v1-to-pydantic-v2",
+       0.748
+      ],
+      [
+       "fastapi:how-to/migrate-from-pydantic-v1-to-pydantic-v2",
+       0.725
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.709
+      ],
+      [
+       "fastapi:environment-variables",
+       0.707
+      ]
+     ]
+    },
+    {
+     "id": "fa-13",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7869324088096619,
+     "returned": [
+      [
+       "fastapi:async",
+       0.787
+      ],
+      [
+       "fastapi:async",
+       0.778
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.747
+      ],
+      [
+       "fastapi:tutorial/dependencies/index",
+       0.744
+      ],
+      [
+       "fastapi:advanced/async-tests",
+       0.739
+      ],
+      [
+       "fastapi:tutorial/stream-json-lines",
+       0.738
+      ]
+     ]
+    },
+    {
+     "id": "fa-14",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8368586897850037,
+     "returned": [
+      [
+       "fastapi:deployment/docker",
+       0.837
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.825
+      ],
+      [
+       "fastapi:fastapi-cli",
+       0.763
+      ],
+      [
+       "fastapi:tutorial/first-steps",
+       0.752
+      ],
+      [
+       "fastapi:fastapi-cli",
+       0.741
+      ],
+      [
+       "fastapi:deployment/fastapicloud",
+       0.74
+      ]
+     ]
+    },
+    {
+     "id": "fa-15",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7544465065002441,
+     "returned": [
+      [
+       "fastapi:deployment/server-workers",
+       0.754
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.748
+      ],
+      [
+       "fastapi:deployment/concepts",
+       0.743
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.736
+      ],
+      [
+       "fastapi:deployment/server-workers",
+       0.725
+      ],
+      [
+       "fastapi:deployment/docker",
+       0.72
+      ]
+     ]
+    },
+    {
+     "id": "fa-16",
+     "category": "fastapi",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.7248133420944214,
+     "returned": [
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.725
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.7
+      ],
+      [
+       "supabase:guides/database/connection-management",
+       0.696
+      ],
+      [
+       "supabase:guides/auth/sessions",
+       0.683
+      ],
+      [
+       "supabase:guides/auth/sessions",
+       0.682
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.68
+      ]
+     ]
+    },
+    {
+     "id": "fa-17",
+     "category": "fastapi",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7361918687820435,
+     "returned": [
+      [
+       "fastapi:tutorial/middleware",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "fastapi:advanced/response-headers",
+       0.736
+      ],
+      [
+       "fastapi:how-to/custom-request-and-route",
+       0.718
+      ],
+      [
+       "fastapi:advanced/custom-response",
+       0.716
+      ],
+      [
+       "fastapi:advanced/custom-response",
+       0.709
+      ]
+     ]
+    },
+    {
+     "id": "fa-18",
+     "category": "fastapi",
+     "rank": 6,
+     "both_sources": false,
+     "top_score": 0.7191015481948853,
+     "returned": [
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.719
+      ],
+      [
+       "supabase:guides/functions/examples/push-notifications",
+       0.718
+      ],
+      [
+       "supabase:troubleshooting/realtime-isolating-server-side-vs-client-side-issues-with-inspector-and-devtools",
+       0.715
+      ],
+      [
+       "fastapi:tutorial/body-updates",
+       0.7
+      ],
+      [
+       "supabase:guides/self-hosting/updating",
+       0.688
+      ],
+      [
+       "fastapi:tutorial/server-sent-events",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "fa-19",
+     "category": "fastapi",
+     "rank": 3,
+     "both_sources": false,
+     "top_score": 0.7221124172210693,
+     "returned": [
+      [
+       "supabase:guides/database/testing",
+       0.722
+      ],
+      [
+       "supabase:guides/database/testing",
+       0.708
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.706
+      ],
+      [
+       "supabase:guides/local-development/testing/overview",
+       0.704
+      ],
+      [
+       "supabase:guides/platform/webhooks",
+       0.703
+      ],
+      [
+       "fastapi:tutorial/testing",
+       0.703
+      ]
+     ]
+    },
+    {
+     "id": "sb-01",
+     "category": "supabase",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.7336888909339905,
+     "returned": [
+      [
+       "supabase:guides/database/postgres/column-level-security",
+       0.734
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.723
+      ],
+      [
+       "supabase:guides/auth/oauth-server/token-security",
+       0.723
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.721
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.719
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.711
+      ]
+     ]
+    },
+    {
+     "id": "sb-02",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7482744455337524,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-email-passwordless",
+       0.748
+      ],
+      [
+       "supabase:guides/auth/auth-identity-linking",
+       0.739
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-react",
+       0.732
+      ],
+      [
+       "supabase:guides/auth/auth-email-passwordless",
+       0.722
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-nuxt-3",
+       0.721
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-angular",
+       0.721
+      ]
+     ]
+    },
+    {
+     "id": "sb-03",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8039178848266602,
+     "returned": [
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.804
+      ],
+      [
+       "supabase:guides/auth/social-login/auth-google",
+       0.784
+      ],
+      [
+       "supabase:guides/auth/quickstarts/with-expo-react-native-social-auth",
+       0.733
+      ],
+      [
+       "supabase:guides/getting-started/tutorials/with-kotlin",
+       0.73
+      ],
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.727
+      ],
+      [
+       "supabase:guides/auth/social-login/auth-github",
+       0.725
+      ]
+     ]
+    },
+    {
+     "id": "sb-04",
+     "category": "supabase",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.72425776720047,
+     "returned": [
+      [
+       "supabase:guides/realtime/getting_started",
+       0.724
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.709
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.698
+      ],
+      [
+       "supabase:guides/realtime/subscribing-to-database-changes",
+       0.698
+      ],
+      [
+       "supabase:guides/database/postgres/event-triggers",
+       0.686
+      ],
+      [
+       "supabase:guides/realtime/getting_started",
+       0.683
+      ]
+     ]
+    },
+    {
+     "id": "sb-05",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7312467098236084,
+     "returned": [
+      [
+       "supabase:guides/cron/quickstart",
+       0.731
+      ],
+      [
+       "supabase:guides/cron/quickstart",
+       0.697
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.684
+      ],
+      [
+       "supabase:guides/database/postgres/timeouts",
+       0.677
+      ],
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.676
+      ],
+      [
+       "supabase:guides/database/postgres/configuration",
+       0.675
+      ]
+     ]
+    },
+    {
+     "id": "sb-06",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7214122414588928,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.721
+      ],
+      [
+       "supabase:guides/storage/uploads/resumable-uploads",
+       0.713
+      ],
+      [
+       "supabase:guides/storage/uploads/s3-uploads",
+       0.711
+      ],
+      [
+       "supabase:guides/storage/production/scaling",
+       0.7
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.695
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.689
+      ]
+     ]
+    },
+    {
+     "id": "sb-07",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7867271900177002,
+     "returned": [
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.787
+      ],
+      [
+       "supabase:guides/storage/serving/image-transformations",
+       0.77
+      ],
+      [
+       "supabase:guides/storage/production/scaling",
+       0.762
+      ],
+      [
+       "supabase:guides/getting-started/features",
+       0.74
+      ],
+      [
+       "supabase:guides/platform/manage-your-usage/storage-image-transformations",
+       0.709
+      ],
+      [
+       "supabase:guides/platform/manage-your-usage",
+       0.704
+      ]
+     ]
+    },
+    {
+     "id": "sb-08",
+     "category": "supabase",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.842958927154541,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.843
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.792
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.79
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.788
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-envoy",
+       0.78
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.777
+      ]
+     ]
+    },
+    {
+     "id": "sb-09",
+     "category": "supabase",
+     "rank": 5,
+     "both_sources": false,
+     "top_score": 0.8490046262741089,
+     "returned": [
+      [
+       "supabase:guides/functions/quickstart-dashboard",
+       0.849
+      ],
+      [
+       "supabase:guides/functions/quickstart",
+       0.843
+      ],
+      [
+       "supabase:guides/integrations/supabase-for-platforms",
+       0.839
+      ],
+      [
+       "supabase:guides/functions/architecture",
+       0.839
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.837
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.835
+      ]
+     ]
+    },
+    {
+     "id": "sb-10",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8394376039505005,
+     "returned": [
+      [
+       "supabase:troubleshooting/too-many-connections-for-database-postgres",
+       0.839
+      ],
+      [
+       "supabase:guides/realtime/limits",
+       0.796
+      ],
+      [
+       "supabase:troubleshooting/http-api-issues",
+       0.796
+      ],
+      [
+       "supabase:troubleshooting/database-error-remaining-connection-slots-are-reserved-for-non-replication-superuser-connections-3V3nIb",
+       0.78
+      ],
+      [
+       "supabase:guides/storage/debugging/error-codes",
+       0.772
+      ],
+      [
+       "supabase:troubleshooting/seeing-no-pghbaconf-entry-for-host-errors-in-postgres-and-they-come-from-an-ip-address-that-i-dont-recognize-4gds9f",
+       0.769
+      ]
+     ]
+    },
+    {
+     "id": "sb-11",
+     "category": "supabase",
+     "rank": 6,
+     "both_sources": false,
+     "top_score": 0.8137602806091309,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/amazon-bedrock",
+       0.814
+      ],
+      [
+       "supabase:guides/ai/concepts",
+       0.797
+      ],
+      [
+       "supabase:guides/ai/automatic-embeddings",
+       0.797
+      ],
+      [
+       "supabase:guides/ai/concepts",
+       0.794
+      ],
+      [
+       "supabase:guides/database/extensions/pgvector",
+       0.775
+      ],
+      [
+       "supabase:guides/ai/semantic-search",
+       0.774
+      ]
+     ]
+    },
+    {
+     "id": "sb-12",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7761876583099365,
+     "returned": [
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.776
+      ],
+      [
+       "supabase:guides/ai",
+       0.769
+      ],
+      [
+       "supabase:guides/ai/hybrid-search",
+       0.767
+      ],
+      [
+       "supabase:guides/storage/vector/querying-vectors",
+       0.766
+      ],
+      [
+       "supabase:guides/storage/vector/querying-vectors",
+       0.763
+      ],
+      [
+       "supabase:guides/ai/semantic-search",
+       0.761
+      ]
+     ]
+    },
+    {
+     "id": "sb-13",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7448467016220093,
+     "returned": [
+      [
+       "supabase:guides/api/custom-claims-and-role-based-access-control-rbac",
+       0.745
+      ],
+      [
+       "supabase:guides/storage/schema/custom-roles",
+       0.744
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.732
+      ],
+      [
+       "supabase:guides/api/custom-claims-and-role-based-access-control-rbac",
+       0.728
+      ],
+      [
+       "supabase:guides/auth/third-party/clerk",
+       0.725
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-auth-hooks",
+       0.725
+      ]
+     ]
+    },
+    {
+     "id": "sb-14",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8568664789199829,
+     "returned": [
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.857
+      ],
+      [
+       "supabase:guides/api/rest/generating-types",
+       0.853
+      ],
+      [
+       "supabase:guides/local-development/cli-workflows",
+       0.821
+      ],
+      [
+       "supabase:guides/api/rest/generating-python-types",
+       0.793
+      ],
+      [
+       "fastapi:advanced/generate-clients",
+       0.791
+      ],
+      [
+       "supabase:guides/ai/examples/huggingface-image-captioning",
+       0.79
+      ]
+     ]
+    },
+    {
+     "id": "sb-15",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7788664698600769,
+     "returned": [
+      [
+       "supabase:guides/self-hosting/docker",
+       0.779
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.776
+      ],
+      [
+       "supabase:guides/local-development/cli/getting-started",
+       0.774
+      ],
+      [
+       "supabase:guides/self-hosting",
+       0.772
+      ],
+      [
+       "supabase:guides/integrations/supabase-for-platforms",
+       0.769
+      ],
+      [
+       "supabase:guides/local-development/running-multiple-local-projects",
+       0.767
+      ]
+     ]
+    },
+    {
+     "id": "sb-16",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8000835180282593,
+     "returned": [
+      [
+       "supabase:guides/local-development/database-migrations",
+       0.8
+      ],
+      [
+       "supabase:guides/deployment/managing-environments",
+       0.789
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.789
+      ],
+      [
+       "supabase:guides/deployment/managing-environments",
+       0.789
+      ],
+      [
+       "supabase:guides/local-development/database-migrations",
+       0.787
+      ],
+      [
+       "supabase:guides/deployment/database-migrations",
+       0.787
+      ]
+     ]
+    },
+    {
+     "id": "sb-17",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7134137153625488,
+     "returned": [
+      [
+       "supabase:guides/platform/backups",
+       0.713
+      ],
+      [
+       "supabase:guides/platform/backups",
+       0.707
+      ],
+      [
+       "supabase:guides/platform/clone-project",
+       0.705
+      ],
+      [
+       "supabase:guides/platform/migrating-within-supabase/backup-restore",
+       0.704
+      ],
+      [
+       "supabase:troubleshooting/restore-project-after-90-days-pause",
+       0.702
+      ],
+      [
+       "supabase:guides/platform/clone-project",
+       0.701
+      ]
+     ]
+    },
+    {
+     "id": "sb-18",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8098435401916504,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.81
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.791
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/totp",
+       0.787
+      ],
+      [
+       "supabase:guides/auth/auth-mfa",
+       0.786
+      ],
+      [
+       "supabase:guides/platform/multi-factor-authentication",
+       0.772
+      ],
+      [
+       "supabase:guides/auth/auth-mfa/phone",
+       0.771
+      ]
+     ]
+    },
+    {
+     "id": "sb-19",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.8644943237304688,
+     "returned": [
+      [
+       "supabase:troubleshooting/storage-error-403-forbidden-new-row-violates-row-level-security-policy-on-upload-a94384",
+       0.864
+      ],
+      [
+       "supabase:guides/database/postgres/row-level-security",
+       0.751
+      ],
+      [
+       "supabase:troubleshooting/pg_dump-fails-with-query-would-be-affected-by-row-level-security-policy-1d5783",
+       0.741
+      ],
+      [
+       "supabase:guides/database/tables",
+       0.727
+      ],
+      [
+       "supabase:guides/local-development/testing/pgtap-extended",
+       0.722
+      ],
+      [
+       "supabase:troubleshooting/pg_dump-fails-with-query-would-be-affected-by-row-level-security-policy-1d5783",
+       0.721
+      ]
+     ]
+    },
+    {
+     "id": "sb-20",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7728999257087708,
+     "returned": [
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.773
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.76
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.749
+      ],
+      [
+       "supabase:guides/getting-started/migrating-to-new-api-keys",
+       0.749
+      ],
+      [
+       "supabase:guides/auth/signing-keys",
+       0.745
+      ],
+      [
+       "supabase:guides/self-hosting/self-hosted-auth-keys",
+       0.727
+      ]
+     ]
+    },
+    {
+     "id": "sb-21",
+     "category": "supabase",
+     "rank": 1,
+     "both_sources": false,
+     "top_score": 0.7666825652122498,
+     "returned": [
+      [
+       "supabase:guides/database/vault",
+       0.767
+      ],
+      [
+       "supabase:guides/database/vault",
+       0.766
+      ],
+      [
+       "supabase:guides/self-hosting/docker",
+       0.75
+      ],
+      [
+       "supabase:guides/auth/password-security",
+       0.736
+      ],
+      [
+       "supabase:guides/functions/secrets",
+       0.734
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.73
+      ]
+     ]
+    },
+    {
+     "id": "sb-22",
+     "category": "supabase",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.7712879180908203,
+     "returned": [
+      [
+       "supabase:guides/auth/auth-hooks/send-sms-hook",
+       0.771
+      ],
+      [
+       "supabase:guides/queues/quickstart",
+       0.76
+      ],
+      [
+       "supabase:guides/cron/install",
+       0.756
+      ],
+      [
+       "supabase:guides/database/custom-postgres-config",
+       0.748
+      ],
+      [
+       "supabase:guides/cron/quickstart",
+       0.744
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/hono",
+       0.743
+      ]
+     ]
+    },
+    {
+     "id": "x-01",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": true,
+     "top_score": 0.8312081694602966,
+     "returned": [
+      [
+       "supabase:guides/auth/jwts",
+       0.831
+      ],
+      [
+       "supabase:guides/auth/jwts",
+       0.827
+      ],
+      [
+       "supabase:guides/functions/auth-headers",
+       0.798
+      ],
+      [
+       "fastapi:advanced/strict-content-type",
+       0.748
+      ],
+      [
+       "fastapi:tutorial/security/oauth2-jwt",
+       0.734
+      ],
+      [
+       "fastapi:index",
+       0.724
+      ]
+     ]
+    },
+    {
+     "id": "x-02",
+     "category": "cross",
+     "rank": 4,
+     "both_sources": false,
+     "top_score": 0.8019634485244751,
+     "returned": [
+      [
+       "supabase:guides/ai/google-colab",
+       0.802
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/spring-boot",
+       0.801
+      ],
+      [
+       "supabase:guides/ai/examples/semantic-image-search-amazon-titan",
+       0.799
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.725
+      ],
+      [
+       "fastapi:tutorial/sql-databases",
+       0.706
+      ],
+      [
+       "fastapi:advanced/advanced-dependencies",
+       0.696
+      ]
+     ]
+    },
+    {
+     "id": "x-03",
+     "category": "cross",
+     "rank": 1,
+     "both_sources": true,
+     "top_score": 0.7889546155929565,
+     "returned": [
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.789
+      ],
+      [
+       "supabase:guides/storage/quickstart",
+       0.788
+      ],
+      [
+       "supabase:guides/storage/uploads/standard-uploads",
+       0.774
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.739
+      ],
+      [
+       "fastapi:tutorial/request-files",
+       0.712
+      ],
+      [
+       "fastapi:tutorial/request-forms-and-files",
+       0.704
+      ]
+     ]
+    },
+    {
+     "id": "x-04",
+     "category": "cross",
+     "rank": 2,
+     "both_sources": false,
+     "top_score": 0.804100513458252,
+     "returned": [
+      [
+       "supabase:guides/api/creating-routes",
+       0.804
+      ],
+      [
+       "supabase:guides/getting-started/api-keys",
+       0.79
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ios-swiftui",
+       0.774
+      ],
+      [
+       "fastapi:tutorial/bigger-applications",
+       0.755
+      ],
+      [
+       "fastapi:tutorial/metadata",
+       0.753
+      ],
+      [
+       "fastapi:advanced/sub-applications",
+       0.745
+      ]
+     ]
+    },
+    {
+     "id": "na-01",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6404983997344971,
+     "returned": [
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.64
+      ],
+      [
+       "supabase:guides/ai/examples/image-search-openai-clip",
+       0.62
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/flask",
+       0.619
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/sveltekit",
+       0.615
+      ],
+      [
+       "supabase:guides/ai/examples/image-search-openai-clip",
+       0.611
+      ],
+      [
+       "supabase:guides/ai/integrations/roboflow",
+       0.61
+      ]
+     ]
+    },
+    {
+     "id": "na-02",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.703188419342041,
+     "returned": [
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.703
+      ],
+      [
+       "supabase:guides/ai/examples/building-chatgpt-plugins",
+       0.683
+      ],
+      [
+       "supabase:guides/ai/examples/headless-vector-search",
+       0.681
+      ],
+      [
+       "supabase:guides/ai/examples/headless-vector-search",
+       0.659
+      ],
+      [
+       "supabase:guides/ai/quickstarts/generate-text-embeddings",
+       0.642
+      ],
+      [
+       "supabase:guides/self-hosting/custom-postgres-extensions",
+       0.639
+      ]
+     ]
+    },
+    {
+     "id": "na-03",
+     "category": "unanswerable",
+     "rank": null,
+     "both_sources": false,
+     "top_score": 0.6739903688430786,
+     "returned": [
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.674
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/ruby-on-rails",
+       0.669
+      ],
+      [
+       "supabase:guides/ai/quickstarts/generate-text-embeddings",
+       0.662
+      ],
+      [
+       "supabase:guides/getting-started/quickstarts/reactjs",
+       0.655
+      ],
+      [
+       "supabase:guides/functions/deploy",
+       0.646
+      ],
+      [
+       "supabase:guides/realtime/broadcast",
+       0.643
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

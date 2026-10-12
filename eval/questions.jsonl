@@ -1,0 +1,48 @@
+{"id": "fa-01", "category": "fastapi", "question": "How do I make a query parameter optional with a default value?", "expected": ["fastapi:tutorial/query-params"]}
+{"id": "fa-02", "category": "fastapi", "question": "How can I limit a string query parameter to at most 50 characters?", "expected": ["fastapi:tutorial/query-params-str-validations"]}
+{"id": "fa-03", "category": "fastapi", "question": "How do I return a 404 error when an item isn't found?", "expected": ["fastapi:tutorial/handling-errors"]}
+{"id": "fa-04", "category": "fastapi", "question": "How do I run code once when the app starts, like loading a machine learning model?", "expected": ["fastapi:advanced/events"]}
+{"id": "fa-05", "category": "fastapi", "question": "How do I accept a file upload in my API?", "expected": ["fastapi:tutorial/request-files", "fastapi:tutorial/request-forms-and-files"]}
+{"id": "fa-06", "category": "fastapi", "question": "My frontend on another domain gets blocked by the browser when it calls my API. How do I allow it?", "expected": ["fastapi:tutorial/cors"]}
+{"id": "fa-07", "category": "fastapi", "question": "How do I stop the password field from appearing in the API response?", "expected": ["fastapi:tutorial/response-model", "fastapi:tutorial/extra-models"]}
+{"id": "fa-08", "category": "fastapi", "question": "How do I split my app into several files with routers?", "expected": ["fastapi:tutorial/bigger-applications"]}
+{"id": "fa-09", "category": "fastapi", "question": "How do I send an email after returning the response, so the user doesn't have to wait?", "expected": ["fastapi:tutorial/background-tasks"]}
+{"id": "fa-10", "category": "fastapi", "question": "How do I hash passwords and issue JWT access tokens?", "expected": ["fastapi:tutorial/security/oauth2-jwt"]}
+{"id": "fa-11", "category": "fastapi", "question": "How do I swap a database dependency for a fake one in my tests?", "expected": ["fastapi:advanced/testing-dependencies"]}
+{"id": "fa-12", "category": "fastapi", "question": "How do I load configuration from environment variables with Pydantic?", "expected": ["fastapi:advanced/settings"]}
+{"id": "fa-13", "category": "fastapi", "question": "Should my endpoints be async def or plain def?", "expected": ["fastapi:async"]}
+{"id": "fa-14", "category": "fastapi", "question": "How do I package my FastAPI app in a Docker container?", "expected": ["fastapi:deployment/docker"]}
+{"id": "fa-15", "category": "fastapi", "question": "How do I run several worker processes in production?", "expected": ["fastapi:deployment/server-workers", "fastapi:deployment/manually"]}
+{"id": "fa-16", "category": "fastapi", "question": "How do I open a database session for each request and close it afterwards?", "expected": ["fastapi:tutorial/dependencies/dependencies-with-yield", "fastapi:tutorial/sql-databases"]}
+{"id": "fa-17", "category": "fastapi", "question": "How do I add a header with the processing time to every response?", "expected": ["fastapi:tutorial/middleware"]}
+{"id": "fa-18", "category": "fastapi", "question": "How do I push live updates from the server to the browser?", "expected": ["fastapi:tutorial/server-sent-events", "fastapi:advanced/websockets"]}
+{"id": "fa-19", "category": "fastapi", "question": "How do I write tests for my endpoints?", "expected": ["fastapi:tutorial/testing"]}
+{"id": "sb-01", "category": "supabase", "question": "How do I make sure users can only read their own rows?", "expected": ["supabase:guides/database/postgres/row-level-security"]}
+{"id": "sb-02", "category": "supabase", "question": "How do I let users log in with a link emailed to them instead of a password?", "expected": ["supabase:guides/auth/auth-email-passwordless"]}
+{"id": "sb-03", "category": "supabase", "question": "How do I add Google sign-in to my app?", "expected": ["supabase:guides/auth/social-login/auth-google"]}
+{"id": "sb-04", "category": "supabase", "question": "How do I get notified in my app when a new row is inserted into a table?", "expected": ["supabase:guides/realtime/postgres-changes", "supabase:guides/realtime/subscribing-to-database-changes"]}
+{"id": "sb-05", "category": "supabase", "question": "How do I run a SQL job every night at midnight?", "expected": ["supabase:guides/cron/quickstart", "supabase:guides/cron/install"]}
+{"id": "sb-06", "category": "supabase", "question": "How do I upload large files so the upload can resume if the connection drops?", "expected": ["supabase:guides/storage/uploads/resumable-uploads"]}
+{"id": "sb-07", "category": "supabase", "question": "How do I resize images on the fly when serving them from storage?", "expected": ["supabase:guides/storage/serving/image-transformations"]}
+{"id": "sb-08", "category": "supabase", "question": "Where do I keep a third-party API key so my Edge Function can use it?", "expected": ["supabase:guides/functions/secrets"]}
+{"id": "sb-09", "category": "supabase", "question": "How do I deploy an Edge Function to production?", "expected": ["supabase:guides/functions/deploy"]}
+{"id": "sb-10", "category": "supabase", "question": "My app keeps getting 'too many connections' errors from Postgres. What should I do?", "expected": ["supabase:troubleshooting/too-many-connections-for-database-postgres", "supabase:guides/database/connecting-to-postgres/pooling-and-limits", "supabase:guides/database/connection-management"]}
+{"id": "sb-11", "category": "supabase", "question": "How do I store embeddings and find the most similar ones?", "expected": ["supabase:guides/ai/vector-columns", "supabase:guides/ai/semantic-search"]}
+{"id": "sb-12", "category": "supabase", "question": "How do I combine keyword search with vector search?", "expected": ["supabase:guides/ai/hybrid-search"]}
+{"id": "sb-13", "category": "supabase", "question": "How do I add a user's role to their access token so I can check it in policies?", "expected": ["supabase:guides/auth/auth-hooks/custom-access-token-hook", "supabase:guides/api/custom-claims-and-role-based-access-control-rbac"]}
+{"id": "sb-14", "category": "supabase", "question": "How do I generate TypeScript types from my database schema?", "expected": ["supabase:guides/api/rest/generating-types"]}
+{"id": "sb-15", "category": "supabase", "question": "How do I run the whole Supabase stack on my own laptop?", "expected": ["supabase:guides/local-development/cli/getting-started", "supabase:guides/local-development/cli-workflows"]}
+{"id": "sb-16", "category": "supabase", "question": "How do I create a migration file and apply it to my production database?", "expected": ["supabase:guides/deployment/database-migrations", "supabase:guides/local-development/database-migrations"]}
+{"id": "sb-17", "category": "supabase", "question": "How do I restore my database to how it was yesterday?", "expected": ["supabase:guides/platform/backups"]}
+{"id": "sb-18", "category": "supabase", "question": "How do I add two-factor authentication with an authenticator app?", "expected": ["supabase:guides/auth/auth-mfa/totp", "supabase:guides/auth/auth-mfa"]}
+{"id": "sb-19", "category": "supabase", "question": "My file upload fails with 'new row violates row-level security policy'. How do I fix it?", "expected": ["supabase:troubleshooting/storage-error-403-forbidden-new-row-violates-row-level-security-policy-on-upload-a94384", "supabase:guides/storage/security/access-control"]}
+{"id": "sb-20", "category": "supabase", "question": "What's the difference between the publishable key and the secret key, and which one can I use in the browser?", "expected": ["supabase:guides/getting-started/api-keys"]}
+{"id": "sb-21", "category": "supabase", "question": "How do I store secrets encrypted inside the database?", "expected": ["supabase:guides/database/vault"]}
+{"id": "sb-22", "category": "supabase", "question": "How do I set up a job queue in Postgres?", "expected": ["supabase:guides/queues/quickstart", "supabase:guides/queues/pgmq", "supabase:guides/queues"]}
+{"id": "x-01", "category": "cross", "question": "How do I verify a Supabase JWT in a FastAPI endpoint?", "expected": ["fastapi:tutorial/security/oauth2-jwt", "fastapi:tutorial/security/get-current-user", "fastapi:tutorial/security/first-steps", "supabase:guides/auth/jwts", "supabase:guides/auth/signing-keys", "supabase:guides/auth/jwt-fields"]}
+{"id": "x-02", "category": "cross", "question": "How do I connect my FastAPI app to the Supabase Postgres database?", "expected": ["fastapi:tutorial/sql-databases", "supabase:guides/database/connecting-to-postgres", "supabase:guides/database/connection-management", "supabase:guides/database/connecting-to-postgres/pooling-and-limits"]}
+{"id": "x-03", "category": "cross", "question": "How do I accept a file upload in FastAPI and save it to Supabase Storage?", "expected": ["fastapi:tutorial/request-files", "supabase:guides/storage/uploads/standard-uploads", "supabase:guides/storage/quickstart"]}
+{"id": "x-04", "category": "cross", "question": "How should my FastAPI app read the Supabase URL and API key from its configuration?", "expected": ["fastapi:advanced/settings", "fastapi:environment-variables", "supabase:guides/getting-started/api-keys"]}
+{"id": "na-01", "category": "unanswerable", "question": "How do I train a neural network with PyTorch?", "expected": []}
+{"id": "na-02", "category": "unanswerable", "question": "How do I build a WordPress plugin?", "expected": []}
+{"id": "na-03", "category": "unanswerable", "question": "How do I publish a Ruby gem?", "expected": []}

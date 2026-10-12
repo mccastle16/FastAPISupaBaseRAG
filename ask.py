@@ -5,7 +5,7 @@ ask.py - Step 6 of the RAG pipeline: answer a question with Claude, using the do
 
 Use it from the command line:
     .venv\\Scripts\\python.exe ask.py "How do I add GitHub login to my Supabase app?"
-    .venv\\Scripts\\python.exe ask.py "How do I verify a Supabase JWT in FastAPI?" --balance
+    .venv\\Scripts\\python.exe ask.py "How do I verify a Supabase JWT in FastAPI?"
     .venv\\Scripts\\python.exe ask.py            (interactive: ask several questions)
 
 Or from Python:
@@ -98,12 +98,15 @@ def get_client():
     return anthropic.Anthropic()
 
 
-def ask(question, k=DEFAULT_K, source=None, balance=False, stream_to=None, client=None):
+def ask(question, k=DEFAULT_K, source=None, balance="auto", stream_to=None, client=None):
     """Retrieve passages, ask Claude, and return the answer with its sources.
 
     If `stream_to` is a file (e.g. sys.stdout), the answer is printed there
     as it's written. Returns a dict with answer, passages, cited (the passage
     numbers the answer cites), usage and cost.
+
+    balance="auto" takes passages from both sources only when the question
+    names both FastAPI and Supabase (the best setting in evaluate.py).
     """
     client = client or get_client()
     passages = search(question, k=k, source=source, balance=balance)
@@ -185,8 +188,11 @@ def main():
     parser.add_argument("question", nargs="?", help="leave out for interactive mode")
     parser.add_argument("-k", type=int, default=DEFAULT_K, help="passages to give Claude")
     parser.add_argument("--source", choices=["fastapi", "supabase"], help="use one source only")
-    parser.add_argument("--balance", action="store_true", help="take passages from both sources")
+    parser.add_argument("--balance", action="store_true",
+                        help="always take passages from both sources (by default this happens "
+                             "only when the question names both FastAPI and Supabase)")
     args = parser.parse_args()
+    args.balance = True if args.balance else "auto"
 
     sys.stdout.reconfigure(encoding="utf-8")   # answers can contain emoji and arrows
     client = get_client()                      # fail fast if there's no API key

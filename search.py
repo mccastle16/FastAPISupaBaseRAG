@@ -82,9 +82,14 @@ def search(question, k=DEFAULT_K, source=None, balance=False, max_per_page=MAX_P
       source:  "fastapi" or "supabase" to search only one of them.
       balance: take the best half from each source, so a question that spans
                both ("protect a FastAPI endpoint with a Supabase JWT") isn't
-               answered by only one side.
+               answered by only one side. "auto" balances only when the
+               question names both FastAPI and Supabase; evaluate.py showed
+               that always balancing hurts single-source questions.
     """
     chunks, vectors, sources, model, meta = load_index()
+    if balance == "auto":
+        lowered = question.lower()
+        balance = "fastapi" in lowered and "supabase" in lowered
 
     # Embed the question exactly the way the model expects: with the query
     # prefix (passages were embedded without it) and normalized to length 1.
