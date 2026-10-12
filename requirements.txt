@@ -1,0 +1,3 @@
+# load_docs.py and chunk_docs.py use only the standard library.
+# embed_chunks.py needs:
+sentence-transformers
